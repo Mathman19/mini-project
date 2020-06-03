@@ -1,0 +1,11 @@
+C:\Users\nano0\Documents\XSIS\Mini-Project\XSIS20\XSIS20.ViewModel\bin\Debug\XSIS20.ViewModel.dll
+C:\Users\nano0\Documents\XSIS\Mini-Project\XSIS20\XSIS20.ViewModel\bin\Debug\XSIS20.ViewModel.pdb
+C:\Users\nano0\Documents\XSIS\Mini-Project\XSIS20\XSIS20.ViewModel\obj\Debug\XSIS20.ViewModel.csprojAssemblyReference.cache
+C:\Users\nano0\Documents\XSIS\Mini-Project\XSIS20\XSIS20.ViewModel\obj\Debug\XSIS20.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\nano0\Documents\XSIS\Mini-Project\XSIS20\XSIS20.ViewModel\obj\Debug\XSIS20.ViewModel.dll
+C:\Users\nano0\Documents\XSIS\Mini-Project\XSIS20\XSIS20.ViewModel\obj\Debug\XSIS20.ViewModel.pdb
+F:\miniproject\XSIS20\XSIS20.ViewModel\bin\Debug\XSIS20.ViewModel.dll
+F:\miniproject\XSIS20\XSIS20.ViewModel\bin\Debug\XSIS20.ViewModel.pdb
+F:\miniproject\XSIS20\XSIS20.ViewModel\obj\Debug\XSIS20.ViewModel.csprojResolveAssemblyReference.cache
+F:\miniproject\XSIS20\XSIS20.ViewModel\obj\Debug\XSIS20.ViewModel.dll
+F:\miniproject\XSIS20\XSIS20.ViewModel\obj\Debug\XSIS20.ViewModel.pdb

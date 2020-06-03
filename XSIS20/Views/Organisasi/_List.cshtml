@@ -1,0 +1,60 @@
+﻿@model IEnumerable<XSIS20.ViewModel.OrganisasiViewModel>
+<style>
+    .btn {
+        background-color: #0e003d;
+        color: white;
+        border-style: hidden;
+    }
+
+    #btn-more {
+        border-radius: 8px;
+    }
+</style>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                NAMA
+            </th>
+            <th>
+                JABATAN
+            </th>
+            <th>
+                PERIODE
+            </th>
+            <th>
+                #
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+        
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.position)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.entry_year) s.d
+                @Html.DisplayFor(modelItem => item.exit_year)
+            </td>
+            <td>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default btn-more dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-id="@item.id">
+                        More <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+
+                        <li><a href="#" class="btn-edit" data-id="@item.id">Ubah</a></li>
+                        <li><a href="#" class="btn-delete" data-id="@item.id">Hapus</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
